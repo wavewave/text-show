@@ -59,7 +59,7 @@ instance TextShow Event where
 $(deriveTextShow fdKeyTypeName)
 
 instance TextShow $(conT uniqueTypeName) where
-    showb = showb . $(varE asInt64ValName)
+    showb = undefined -- showb . $(varE asInt64ValName)
     {-# INLINE showb #-}
 
 # if MIN_VERSION_base(4,8,1)

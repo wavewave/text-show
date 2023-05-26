@@ -769,5 +769,5 @@ instance Lift (f a) => Lift (FromGeneric1 f a) where
 
 #if !defined(__LANGUAGE_DERIVE_GENERIC1__)
 $(Generics.deriveMeta           ''FromGeneric1)
-$(Generics.deriveRepresentable1 ''FromGeneric1)
+--  $(Generics.deriveRepresentable1 ''FromGeneric1)
 #endif
