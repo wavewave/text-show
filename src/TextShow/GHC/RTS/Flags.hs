@@ -68,5 +68,5 @@ $(deriveTextShow ''TickyFlags)
 $(deriveTextShow ''ParFlags)
 # endif
 -- | /Since: 2/
-$(deriveTextShow ''RTSFlags)
+-- $(deriveTextShow ''RTSFlags)
 #endif
