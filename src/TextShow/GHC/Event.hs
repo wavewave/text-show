@@ -19,7 +19,7 @@ Only provided if using a platform other than Windows or GHCJS.
 /Since: 2/
 -}
 module TextShow.GHC.Event () where
-
+{-
 #if !defined(__GHCJS__) && !defined(mingw32_HOST_OS)
 import Data.List (intersperse)
 import Data.Maybe (catMaybes)
@@ -69,3 +69,4 @@ instance TextShow $(conT uniqueTypeName) where
 $(deriveTextShow ''Lifetime)
 # endif
 #endif
+-}
